@@ -8,13 +8,15 @@ def tic_tac_toe_finish(board: TicTacToeBoard, pos_y: int, pos_x: int, symbol: st
     This function takes in a TicTacToeBoard and applies the finishing move based on the provided parameters pos_y,
     pos_x, and symbol.
 
+
     :param board: A tuple containing 3 TicTacToeRows. Each TicTacToeRow in turn is a list containing 3 strings
     :param pos_y: The position of the TicTacToeRow that needs to be modified
     :param pos_x: The position of the column within a TicTacToeRow that needs to be modified
     :param symbol: The symbol that should be placed in the column (X, or O)
     :return: None
     """
-    pass  # remove pass statement and implement me
+   # pass  # remove pass statement and impleme
+    board[pos_y][pos_x] =  symbol
 
 
 def count_instances(collection: Tuple, instance: Union[int, str]) -> int:
@@ -25,7 +27,9 @@ def count_instances(collection: Tuple, instance: Union[int, str]) -> int:
     :param instance: An item in the collection parameter
     :return: An integer.
     """
-    pass  # remove pass statement and implement me
+   # pass  # remove pass statement and implement me
+    print (collection.count(instance))
+    return collection.count(instance)
 
 
 def print_indexes_and_entries(indexes: Iterable, entries: Iterable) -> None:
@@ -38,7 +42,8 @@ def print_indexes_and_entries(indexes: Iterable, entries: Iterable) -> None:
     :param entries: A list or tuple
     :return: None
     """
-    pass  # remove pass statement and implement me
+    #pass  # remove pass statement and implement me
+
 
 
 def print_items_with_index(items: Iterable):
@@ -51,4 +56,12 @@ def print_items_with_index(items: Iterable):
     :return: None
     """
     pass  # remove pass statement and implement me
+
+
+
+
+
+
+
+
 
